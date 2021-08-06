@@ -1,0 +1,11 @@
+/home/dmitriy/IdeaProjects/gift/src/main/java/com/epam/esm/entities/GiftCertificate.java
+/home/dmitriy/IdeaProjects/gift/src/main/java/com/epam/esm/dao/TagDAO.java
+/home/dmitriy/IdeaProjects/gift/src/main/java/com/epam/esm/config/ApplicationConfig.java
+/home/dmitriy/IdeaProjects/gift/src/main/java/com/epam/esm/ApplicationInitializer.java
+/home/dmitriy/IdeaProjects/gift/src/main/java/com/epam/esm/entities/Tag.java
+/home/dmitriy/IdeaProjects/gift/src/main/java/com/epam/esm/service/GiftCertificateService.java
+/home/dmitriy/IdeaProjects/gift/src/main/java/com/epam/esm/controller/HomeController.java
+/home/dmitriy/IdeaProjects/gift/src/main/java/com/epam/esm/service/TagService.java
+/home/dmitriy/IdeaProjects/gift/src/main/java/com/epam/esm/dao/GiftCertificateDAO.java
+/home/dmitriy/IdeaProjects/gift/src/main/java/com/epam/esm/entities/GiftTag.java
+/home/dmitriy/IdeaProjects/gift/src/main/java/com/epam/esm/dao/Crud.java

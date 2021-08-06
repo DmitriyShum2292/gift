@@ -1,0 +1,14 @@
+0:0:0:0:0:0:0:1 - - [03/Aug/2021:16:38:00 +0500] "GET /gift/read/17 HTTP/1.1" 200 329 http-bio-8080-exec-2 2262
+0:0:0:0:0:0:0:1 - - [03/Aug/2021:16:38:08 +0500] "GET /gift/read/5 HTTP/1.1" 404 - http-bio-8080-exec-3 107
+0:0:0:0:0:0:0:1 - - [03/Aug/2021:16:38:14 +0500] "GET /gift/read/17 HTTP/1.1" 200 329 http-bio-8080-exec-4 100
+0:0:0:0:0:0:0:1 - - [03/Aug/2021:16:38:36 +0500] "GET /gift/allgifts HTTP/1.1" 200 1906 http-bio-8080-exec-5 73
+0:0:0:0:0:0:0:1 - - [03/Aug/2021:16:38:43 +0500] "GET /gift/alltags HTTP/1.1" 200 154 http-bio-8080-exec-6 72
+0:0:0:0:0:0:0:1 - - [03/Aug/2021:16:39:26 +0500] "PATCH /gift/update/4 HTTP/1.1" 200 - http-bio-8080-exec-7 349
+0:0:0:0:0:0:0:1 - - [03/Aug/2021:16:39:53 +0500] "PATCH /gift/update/17 HTTP/1.1" 200 - http-bio-8080-exec-8 200
+0:0:0:0:0:0:0:1 - - [03/Aug/2021:16:40:24 +0500] "DELETE /gift/delete/5 HTTP/1.1" 200 - http-bio-8080-exec-9 43
+0:0:0:0:0:0:0:1 - - [03/Aug/2021:16:40:42 +0500] "DELETE /gift/delete/20 HTTP/1.1" 500 9602 http-bio-8080-exec-10 464
+0:0:0:0:0:0:0:1 - - [03/Aug/2021:16:42:24 +0500] "DELETE /gift/delete/20 HTTP/1.1" 200 - http-bio-8080-exec-2 40
+0:0:0:0:0:0:0:1 - - [03/Aug/2021:16:43:07 +0500] "GET /gift/alltags HTTP/1.1" 200 154 http-bio-8080-exec-3 47
+0:0:0:0:0:0:0:1 - - [03/Aug/2021:16:43:12 +0500] "GET /gift/allgifts HTTP/1.1" 200 1802 http-bio-8080-exec-3 57
+0:0:0:0:0:0:0:1 - - [03/Aug/2021:16:43:21 +0500] "GET /gift/giftsbytag/6 HTTP/1.1" 200 542 http-bio-8080-exec-3 339
+0:0:0:0:0:0:0:1 - - [03/Aug/2021:16:43:29 +0500] "GET /gift/tagsbygift/17 HTTP/1.1" 200 74 http-bio-8080-exec-3 65
