@@ -12,7 +12,7 @@ import javax.sql.DataSource;
 
 public class JdbcConfig {
 
-    private static JdbcTemplate jdbcTemplate;
+    private JdbcTemplate jdbcTemplate;
 
     public JdbcConfig(){
         this.jdbcTemplate = jdbcTemplate(dataSource());

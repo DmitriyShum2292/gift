@@ -28,8 +28,9 @@ public class TagDAO implements CRUD<Tag> {
     }
 
     @Override
-    public void create(Tag tag) {
+    public Tag create(Tag tag) {
         jdbcTemplate.update("INSERT INTO tag (name) VALUES (?)",tag.getName());
+        return tag;
     }
 
     @Override
@@ -38,8 +39,8 @@ public class TagDAO implements CRUD<Tag> {
     }
 
     @Override
-    public void update(Map<Object, Object> fields, int id, LocalDateTime date) {
-
+    public boolean update(Map<Object, Object> fields, int id, LocalDateTime date) {
+        return true;
     }
 
     @Override

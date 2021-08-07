@@ -4,10 +4,13 @@ import com.epam.esm.entities.GiftCertificate;
 import com.epam.esm.entities.GiftTag;
 import config.InitDB;
 import config.JdbcConfig;
+import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
+
+import java.sql.SQLException;
 import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.List;
@@ -22,11 +25,15 @@ class GiftCertificateDAOTest {
 
     private GiftCertificateDAO giftCertificateDAO = new GiftCertificateDAO(jdbcConfig.getJdbcTemplate());
 
-    @BeforeAll
-    static void initialize(){;
-        initDB.initGift(jdbcConfig);
-        initDB.initTag(jdbcConfig);
-        initDB.initGiftTag(jdbcConfig);
+
+
+    @AfterAll
+    static void closeDB(){
+        try {
+            jdbcConfig.getJdbcTemplate().getDataSource().getConnection().close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 
     @BeforeEach
@@ -41,6 +48,8 @@ class GiftCertificateDAOTest {
 
     @Test
     void create() {
+        InitDB init = new InitDB();
+        init.initGift(jdbcConfig);
         GiftCertificate certificateExists = giftCertificateDAO.findByName("Certificate");
         assertThat(certificateExists.getName().equals("Certificate"));
     }

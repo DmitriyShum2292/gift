@@ -4,8 +4,8 @@ import java.time.LocalDateTime;
 import java.util.Map;
 
 public interface CRUD<T> {
-    public void create(T t);
+    public T create(T t);
     public T read(int id);
-    public void update(Map<Object,Object> fields, int id, LocalDateTime date);
+    public boolean update(Map<Object,Object> fields, int id, LocalDateTime date);
     public void delete(int id);
 }

@@ -18,6 +18,9 @@ public class TagService {
     @Autowired
     private TagDAO tagDAO;
 
+    public TagService(TagDAO tagDAO){
+        this.tagDAO = tagDAO;
+    }
     public boolean create(Tag tag){
         if (tagDAO.findByName(tag.getName())==null){
             tagDAO.create(tag);

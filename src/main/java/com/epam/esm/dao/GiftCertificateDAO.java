@@ -21,18 +21,23 @@ import java.util.stream.Collectors;
 public class GiftCertificateDAO implements CRUD<GiftCertificate> {
 
 
-    private final JdbcTemplate jdbcTemplate;
+    private JdbcTemplate jdbcTemplate;
 
     @Autowired
     public GiftCertificateDAO(JdbcTemplate jdbcTemplate){
         this.jdbcTemplate = jdbcTemplate;
     }
 
+    public GiftCertificateDAO() {
+
+    }
+
     @Override
-    public void create(GiftCertificate certificate){
+    public GiftCertificate create(GiftCertificate certificate){
         jdbcTemplate.update("INSERT INTO gift_certificate(name,description,price,duration,create_date)" +
                             "VALUES (?,?,?,?,?)", certificate.getName(), certificate.getDescription(),
                     certificate.getPrice(), certificate.getDuration(), certificate.getCreateDate());
+        return certificate;
     }
     @Override
     public GiftCertificate read(int id){
@@ -41,13 +46,14 @@ public class GiftCertificateDAO implements CRUD<GiftCertificate> {
     }
 
     @Override
-    public void update(Map<Object,Object> fields,int id,LocalDateTime date){
+    public boolean update(Map<Object,Object> fields,int id,LocalDateTime date){
 
         for(Map.Entry<Object,Object>entry : fields.entrySet()){
             jdbcTemplate.update("UPDATE gift_certificate SET "+entry.getKey().toString()+"=? WHERE id=?",
                     fields.get(entry.getKey()), id);
         }
         jdbcTemplate.update("UPDATE gift_certificate SET last_update_date = ? WHERE id=?",date,id);
+        return true;
     }
 
     @Override
@@ -65,9 +71,10 @@ public class GiftCertificateDAO implements CRUD<GiftCertificate> {
                 new BeanPropertyRowMapper<>(GiftCertificate.class)).stream().findAny().orElse(null);
     }
 
-    public void addTagToGift(int giftId,int tagId){
+    public boolean addTagToGift(int giftId,int tagId){
         jdbcTemplate.update("INSERT INTO gift_tag (gift_id,tag_id) VALUES (?,?)",
                 giftId, tagId);
+        return true;
     }
 
     public List<GiftCertificate> findGiftsByTag(int id){

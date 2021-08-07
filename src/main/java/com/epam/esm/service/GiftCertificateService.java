@@ -1,6 +1,7 @@
 package com.epam.esm.service;
 
 import com.epam.esm.dao.GiftCertificateDAO;
+import com.epam.esm.dao.TagDAO;
 import com.epam.esm.entities.GiftCertificate;
 import com.epam.esm.entities.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,6 +23,11 @@ public class GiftCertificateService {
     private GiftCertificateDAO giftCertificateDAO;
     @Autowired
     private TagService tagService;
+
+    public GiftCertificateService(GiftCertificateDAO giftCertificateDAO, TagService tagService){
+        this.giftCertificateDAO=giftCertificateDAO;
+        this.tagService = tagService;
+    }
 
     public boolean create (GiftCertificate certificate){
         LocalDateTime date = LocalDateTime.now();
@@ -62,8 +68,9 @@ public class GiftCertificateService {
         return giftCertificateDAO.findByName(name);
     }
 
-    public void addTagToGift(int giftId,int tagId){
+    public boolean addTagToGift(int giftId,int tagId){
         giftCertificateDAO.addTagToGift(giftId,tagId);
+        return true;
     }
 
     public List<GiftCertificate> findGiftsByTag(int id){

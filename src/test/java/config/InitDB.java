@@ -19,9 +19,7 @@ public class InitDB {
 
     public void initTag(JdbcConfig jdbcConfig){
         JdbcTemplate jdbcTemplate = jdbcConfig.getJdbcTemplate();
-        jdbcTemplate.update("CREATE TABLE tag(" +
-                "id serial constraint tag_pk primary key,name varchar" +
-                ")"
+        jdbcTemplate.update("CREATE TABLE tag(id serial constraint tag_pk primary key ,name varchar )"
         );
     }
 
