@@ -28,9 +28,11 @@ public class TagService {
     public Tag findByName(String name){
         return tagDAO.findByName(name);
     }
+
     public List<Tag> allTags(){
         return tagDAO.allTags();
     }
+
     public List<Tag> findTagsByGift(int id){
         return tagDAO.findTagsByGift(id);
     }

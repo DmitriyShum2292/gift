@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eff8c752-bea5-42b7-a018-3c1e69d1fc70" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/43822d12-cd39-42b0-8e84-44cbd9b4663a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43822d12-cd39-42b0-8e84-44cbd9b4663a.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/43822d12-cd39-42b0-8e84-44cbd9b4663a/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43822d12-cd39-42b0-8e84-44cbd9b4663a/entities/entities.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/43822d12-cd39-42b0-8e84-44cbd9b4663a/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43822d12-cd39-42b0-8e84-44cbd9b4663a/entities/entities.dat.values" afterDir="false" />
@@ -13,40 +12,71 @@
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/43822d12-cd39-42b0-8e84-44cbd9b4663a/entities/entities.dat.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43822d12-cd39-42b0-8e84-44cbd9b4663a/entities/entities.dat.values.s" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/43822d12-cd39-42b0-8e84-44cbd9b4663a/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43822d12-cd39-42b0-8e84-44cbd9b4663a/entities/entities.dat_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/43822d12-cd39-42b0-8e84-44cbd9b4663a/storage_v2/_src_/database/gift.MGkwAA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43822d12-cd39-42b0-8e84-44cbd9b4663a/storage_v2/_src_/database/gift.MGkwAA/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/32ac562018e6030e3d9e8525dda136be68f160e0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/584a2d7efc297f2ba672c1952f8674840b5b26f6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/ae4d6fb1d1e10a0b386e57b889e47781f3f7c364" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b6baad7e3cc792973f3c0e49c25985528c8af9bc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b6f46767df67860b5f800570b5c69249fcd55aec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0beb0a582622b12404f097da900d82417ce9cfd3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8f5b109d703e6423f3db60f8781428f6e82e143d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/96d46c5c704ca7fa940befedcf33563b1cff8ef9" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/esm/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/esm/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/esm/dao/Crud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/esm/dao/CRUD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/esm/dao/GiftCertificateDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/esm/dao/GiftCertificateDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/esm/dao/TagDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/esm/dao/TagDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/esm/service/GiftCertificateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/esm/service/GiftCertificateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/esm/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/esm/config/ApplicationConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/esm/service/TagService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/esm/service/TagService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/esm/dao/GiftCertificateDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/esm/dao/GiftCertificateDAOTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/ApplicationInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/esm/ApplicationInitializer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/config/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/esm/config/ApplicationConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/esm/controller/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/dao/Crud.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/dao/CRUD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/esm/dao/CRUD.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/dao/GiftCertificateDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/esm/dao/GiftCertificateDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/dao/TagDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/esm/dao/TagDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/entities/GiftCertificate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/esm/entities/GiftCertificate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/entities/GiftTag.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/esm/entities/GiftTag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/entities/Tag.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/esm/entities/Tag.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/service/GiftCertificateService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/esm/service/GiftCertificateService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/classes/com/epam/esm/ApplicationInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/classes/com/epam/esm/ApplicationInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/classes/com/epam/esm/config/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/classes/com/epam/esm/config/ApplicationConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/classes/com/epam/esm/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/classes/com/epam/esm/controller/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/classes/com/epam/esm/dao/Crud.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/classes/com/epam/esm/dao/GiftCertificateDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/classes/com/epam/esm/dao/GiftCertificateDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/classes/com/epam/esm/dao/TagDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/classes/com/epam/esm/dao/TagDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/classes/com/epam/esm/entities/GiftCertificate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/classes/com/epam/esm/entities/GiftCertificate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/classes/com/epam/esm/service/GiftCertificateService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/classes/com/epam/esm/service/GiftCertificateService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/service/TagService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/esm/service/TagService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/classes/com/epam/esm/ApplicationInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/classes/com/epam/esm/config/ApplicationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/classes/com/epam/esm/controller/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/classes/com/epam/esm/dao/CRUD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/classes/com/epam/esm/dao/GiftCertificateDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/classes/com/epam/esm/dao/TagDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/classes/com/epam/esm/entities/GiftCertificate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/classes/com/epam/esm/entities/GiftTag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/classes/com/epam/esm/entities/Tag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/classes/com/epam/esm/service/GiftCertificateService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/classes/com/epam/esm/service/TagService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/classes/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/jsp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/lib/assertj-core-3.18.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/lib/checker-qual-3.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.10.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/lib/postgresql-42.2.23.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.3.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.3.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/epam/esm/dao/GiftCertificateDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/epam/esm/dao/GiftCertificateDAOTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2021-08-03" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2021-08-06" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +111,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1w4q6FFOFIN06nuHD4yzqQmdWbB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -109,11 +141,14 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.epam.esm.dao" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.epam.esm.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GiftCertificateDAOTest.create">
+  <component name="RunManager" selected="JUnit.GiftCertificateDAOTest">
     <configuration name="GiftCertificateDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gift" />
       <extension name="coverage">
@@ -129,7 +164,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GiftCertificateDAOTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GiftCertificateDAOTest.addTagToGift" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gift" />
       <extension name="coverage">
         <pattern>
@@ -139,13 +174,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.epam.esm.dao" />
       <option name="MAIN_CLASS_NAME" value="com.epam.esm.dao.GiftCertificateDAOTest" />
-      <option name="METHOD_NAME" value="create" />
+      <option name="METHOD_NAME" value="addTagToGift" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GiftCertificateDAOTest.method" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GiftCertificateDAOTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gift" />
       <extension name="coverage">
         <pattern>
@@ -155,13 +190,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.epam.esm.dao" />
       <option name="MAIN_CLASS_NAME" value="com.epam.esm.dao.GiftCertificateDAOTest" />
-      <option name="METHOD_NAME" value="method" />
+      <option name="METHOD_NAME" value="delete" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GiftCertificateDAOTest.read" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GiftCertificateDAOTest.findGiftsByTag" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gift" />
       <extension name="coverage">
         <pattern>
@@ -171,7 +206,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.epam.esm.dao" />
       <option name="MAIN_CLASS_NAME" value="com.epam.esm.dao.GiftCertificateDAOTest" />
-      <option name="METHOD_NAME" value="read" />
+      <option name="METHOD_NAME" value="findGiftsByTag" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GiftCertificateDAOTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gift" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.esm.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.esm.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.esm.dao.GiftCertificateDAOTest" />
+      <option name="METHOD_NAME" value="update" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -179,10 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GiftCertificateDAOTest.create" />
-        <item itemvalue="JUnit.GiftCertificateDAOTest.method" />
         <item itemvalue="JUnit.GiftCertificateDAOTest" />
-        <item itemvalue="JUnit.GiftCertificateDAOTest.read" />
+        <item itemvalue="JUnit.GiftCertificateDAOTest.findGiftsByTag" />
+        <item itemvalue="JUnit.GiftCertificateDAOTest.addTagToGift" />
+        <item itemvalue="JUnit.GiftCertificateDAOTest.delete" />
+        <item itemvalue="JUnit.GiftCertificateDAOTest.update" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +259,7 @@
       <workItem from="1628004522093" duration="768000" />
       <workItem from="1628086416899" duration="1013000" />
       <workItem from="1628254276040" duration="5358000" />
-      <workItem from="1628305681754" duration="609000" />
+      <workItem from="1628305681754" duration="19249000" />
     </task>
     <servers />
   </component>

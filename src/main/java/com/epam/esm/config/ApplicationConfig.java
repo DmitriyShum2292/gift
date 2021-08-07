@@ -1,5 +1,7 @@
 package com.epam.esm.config;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -37,8 +39,11 @@ public class ApplicationConfig extends WebMvcConfigurationSupport {
         dataSource.setPassword("password");
         return dataSource;
     }
+
     @Bean
     public JdbcTemplate jdbcTemplate(){
         return new JdbcTemplate(dataSource());
     }
+
+
 }

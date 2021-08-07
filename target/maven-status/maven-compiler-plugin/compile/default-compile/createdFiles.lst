@@ -1,9 +1,9 @@
-com/epam/esm/entities/GiftTag.class
-com/epam/esm/service/GiftCertificateService.class
 com/epam/esm/service/TagService.class
 com/epam/esm/dao/GiftCertificateDAO.class
+com/epam/esm/entities/GiftTag.class
 com/epam/esm/controller/HomeController.class
 com/epam/esm/dao/TagDAO.class
+com/epam/esm/service/GiftCertificateService.class
 com/epam/esm/dao/CRUD.class
 com/epam/esm/config/ApplicationConfig.class
 com/epam/esm/entities/GiftCertificate.class

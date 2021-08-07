@@ -1,1 +1,3 @@
+config/InitDB.class
 com/epam/esm/dao/GiftCertificateDAOTest.class
+config/JdbcConfig.class
