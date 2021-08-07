@@ -10,8 +10,15 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+/**
+ * DAO layer for GiftCertificate
+ * using JdbcTemplate
+ * @author dmitriy
+ * @version 1.0
+ */
+
 @Component
-public class GiftCertificateDAO implements Crud<GiftCertificate>{
+public class GiftCertificateDAO implements CRUD<GiftCertificate> {
 
 
     private final JdbcTemplate jdbcTemplate;
@@ -35,8 +42,10 @@ public class GiftCertificateDAO implements Crud<GiftCertificate>{
 
     @Override
     public void update(Map<Object,Object> fields,int id,LocalDateTime date){
-        for (Object obj : fields.keySet()){
-            jdbcTemplate.update("UPDATE gift_certificate SET "+obj.toString()+"=? WHERE id=?",fields.get(obj), id);
+
+        for(Map.Entry<Object,Object>entry : fields.entrySet()){
+            jdbcTemplate.update("UPDATE gift_certificate SET "+entry.getKey().toString()+"=? WHERE id=?",
+                    fields.get(entry.getKey()), id);
         }
         jdbcTemplate.update("UPDATE gift_certificate SET last_update_date = ? WHERE id=?",date,id);
     }

@@ -10,8 +10,15 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+/**
+ * DAO layer for Tag
+ * using JdbcTemplate
+ * @author dmitriy
+ * @version 1.0
+ */
+
 @Component
-public class TagDAO implements Crud<Tag>{
+public class TagDAO implements CRUD<Tag> {
 
     private final JdbcTemplate jdbcTemplate;
 

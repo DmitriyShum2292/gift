@@ -9,6 +9,12 @@ import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Sevice layer for GiftCertificate between Controller and GiftCertificateDAO
+ * @author dmitriy
+ * @version 1.0
+ */
+
 @Service
 public class GiftCertificateService {
 
@@ -31,27 +37,35 @@ public class GiftCertificateService {
         }
         return true;
     }
+
     public GiftCertificate read(int id){
         return giftCertificateDAO.read(id);
     }
-    public void update(Map<Object,Object> fields, int id){
+
+    public boolean update(Map<Object,Object> fields, int id){
         LocalDateTime date = LocalDateTime.now();
         if(giftCertificateDAO.read(id)!=null){
             giftCertificateDAO.update(fields,id,date);
+            return true;
         }
+        return false;
     }
     public void delete(int id){
         giftCertificateDAO.delete(id);
     }
+
     public List<GiftCertificate> allGifts(){
         return giftCertificateDAO.allGifts();
     }
+
     public GiftCertificate findByName(String name){
         return giftCertificateDAO.findByName(name);
     }
+
     public void addTagToGift(int giftId,int tagId){
         giftCertificateDAO.addTagToGift(giftId,tagId);
     }
+
     public List<GiftCertificate> findGiftsByTag(int id){
         return giftCertificateDAO.findGiftsByTag(id);
     }

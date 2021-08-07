@@ -4,8 +4,13 @@ import com.epam.esm.dao.TagDAO;
 import com.epam.esm.entities.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
+
+/**
+ * Service layer for Tag between Home Controller and Tag
+ * @author dmitriy
+ * @version 1.0
+ */
 
 @Service
 public class TagService {
