@@ -18,6 +18,10 @@ public class TagService {
     @Autowired
     private TagDAO tagDAO;
 
+    public TagService (){
+
+    }
+
     public TagService(TagDAO tagDAO){
         this.tagDAO = tagDAO;
     }

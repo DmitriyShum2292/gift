@@ -1,7 +1,6 @@
 package com.epam.esm.service;
 
 import com.epam.esm.dao.GiftCertificateDAO;
-import com.epam.esm.dao.TagDAO;
 import com.epam.esm.entities.GiftCertificate;
 import com.epam.esm.entities.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,6 +22,10 @@ public class GiftCertificateService {
     private GiftCertificateDAO giftCertificateDAO;
     @Autowired
     private TagService tagService;
+
+    public GiftCertificateService (){
+
+    }
 
     public GiftCertificateService(GiftCertificateDAO giftCertificateDAO, TagService tagService){
         this.giftCertificateDAO=giftCertificateDAO;

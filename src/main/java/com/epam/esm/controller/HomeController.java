@@ -19,20 +19,21 @@ import java.util.Map;
 @RestController
 public class HomeController {
 
-    @Autowired
     private GiftCertificateService giftCertificateService;
-    @Autowired
+
     private TagService tagService;
 
-    @GetMapping("/home")
-    public String home(){
-        return "Hello!";
+    @Autowired
+    public HomeController(GiftCertificateService giftCertificateService,TagService tagService){
+        this.giftCertificateService = giftCertificateService;
+        this.tagService = tagService;
     }
+
 
     @PostMapping("/create")
     public ResponseEntity<String> create (@RequestBody GiftCertificate certificate){
         if(giftCertificateService.create(certificate)) {
-            return new ResponseEntity<>("Success!",HttpStatus.OK);
+            return new ResponseEntity<>("Success!",HttpStatus.CREATED);
         }
         return new ResponseEntity<>("Certificate exists!",HttpStatus.BAD_REQUEST);
     }

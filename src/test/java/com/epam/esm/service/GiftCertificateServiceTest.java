@@ -69,6 +69,16 @@ class GiftCertificateServiceTest {
         assertThat(result).isTrue();
     }
     @Test
+    void findGiftsByTag(){
+        List<GiftCertificate> certificates = new ArrayList<>();
+        GiftCertificate giftCertificate = new GiftCertificate();
+        giftCertificate.setName("Certificate");
+        certificates.add(giftCertificate);
+        given(giftCertificateDAO.findGiftsByTag(1)).willReturn(certificates);
+
+        assertThat(giftCertificateService.findGiftsByTag(1).size()).isEqualTo(1);
+    }
+    @Test
     void allGifts() {
         List<GiftCertificate> certificates = new ArrayList<>();
         certificates.add(new GiftCertificate());

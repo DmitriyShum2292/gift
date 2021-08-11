@@ -5,7 +5,6 @@ import com.epam.esm.entities.GiftTag;
 import config.InitDB;
 import config.JdbcConfig;
 import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
@@ -15,6 +14,7 @@ import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 class GiftCertificateDAOTest {
@@ -24,7 +24,6 @@ class GiftCertificateDAOTest {
     private static InitDB initDB = new InitDB();
 
     private GiftCertificateDAO giftCertificateDAO = new GiftCertificateDAO(jdbcConfig.getJdbcTemplate());
-
 
 
     @AfterAll

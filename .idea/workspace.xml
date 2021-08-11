@@ -5,41 +5,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eff8c752-bea5-42b7-a018-3c1e69d1fc70" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43822d12-cd39-42b0-8e84-44cbd9b4663a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43822d12-cd39-42b0-8e84-44cbd9b4663a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/1/21728756bd9493cc6bfe09a71340b2f8b0aa88c5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/esm/dao/CRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/esm/dao/CRUD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/esm/dao/GiftCertificateDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/esm/dao/GiftCertificateDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/esm/ApplicationInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/esm/ApplicationInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/esm/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/esm/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/esm/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/esm/controller/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/esm/dao/TagDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/esm/dao/TagDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/esm/service/GiftCertificateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/esm/service/GiftCertificateService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/esm/service/TagService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/esm/service/TagService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/esm/dao/GiftCertificateDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/esm/dao/GiftCertificateDAOTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/esm/dao/TagDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/esm/dao/TagDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/config/InitDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/InitDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/esm/service/GiftCertificateServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/esm/service/GiftCertificateServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/esm/service/TagServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/esm/service/TagServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/config/JdbcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/JdbcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/dao/CRUD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/esm/dao/CRUD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/dao/GiftCertificateDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/esm/dao/GiftCertificateDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/ApplicationInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/esm/ApplicationInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/config/ApplicationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/esm/controller/HomeController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/dao/TagDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/esm/dao/TagDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/service/GiftCertificateService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/esm/service/GiftCertificateService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/service/TagService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/esm/service/TagService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2021-08-07T18-41-06_228-jvmRun1.dump" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.epam.esm.dao.GiftCertificateDAOTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.epam.esm.dao.GiftCertificateDAOTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.epam.esm.dao.TagDAOTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.epam.esm.dao.TagDAOTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.epam.esm.service.GiftCertificateServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.epam.esm.service.GiftCertificateServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.epam.esm.service.TagServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.epam.esm.service.TagServiceTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.epam.esm.dao.GiftCertificateDAOTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.epam.esm.dao.GiftCertificateDAOTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.epam.esm.dao.TagDAOTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.epam.esm.dao.TagDAOTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.epam.esm.service.GiftCertificateServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.epam.esm.service.GiftCertificateServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.epam.esm.service.TagServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.epam.esm.service.TagServiceTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/epam/esm/dao/GiftCertificateDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/epam/esm/dao/GiftCertificateDAOTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/config/InitDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/config/InitDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/config/JdbcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/config/JdbcConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/epam/esm/dao/TagDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/epam/esm/dao/TagDAOTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/epam/esm/service/GiftCertificateServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/epam/esm/service/GiftCertificateServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/epam/esm/service/TagServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/epam/esm/service/TagServiceTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -76,11 +93,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect" value="PostgreSQL&#10;MySQL" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../springmvcmaven" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -96,98 +114,128 @@
       <recent name="com.epam.esm.dao" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.epam.esm.controller" />
       <recent name="com.epam.esm.service" />
       <recent name="com.epam.esm.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TagServiceTest.create">
-    <configuration name="GiftCertificateServiceTest.addTagToGift" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HomeControllerTest">
+    <configuration name="HomeControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gift" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.epam.esm.service.*" />
+          <option name="PATTERN" value="com.epam.esm.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.epam.esm.service" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.esm.service.GiftCertificateServiceTest" />
-      <option name="METHOD_NAME" value="addTagToGift" />
+      <option name="PACKAGE_NAME" value="com.epam.esm.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.esm.controller.HomeControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeControllerTest.allGifts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gift" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.epam.esm.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.epam.esm.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.esm.controller.HomeControllerTest" />
+      <option name="METHOD_NAME" value="allGifts" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GiftCertificateServiceTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HomeControllerTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gift" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.epam.esm.service.*" />
+          <option name="PATTERN" value="com.epam.esm.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.epam.esm.service" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.esm.service.GiftCertificateServiceTest" />
-      <option name="METHOD_NAME" value="create" />
+      <option name="PACKAGE_NAME" value="com.epam.esm.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.esm.controller.HomeControllerTest" />
+      <option name="METHOD_NAME" value="delete" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GiftCertificateServiceTest.read" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HomeControllerTest.giftsByTag" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gift" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.epam.esm.service.*" />
+          <option name="PATTERN" value="com.epam.esm.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.epam.esm.service" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.esm.service.GiftCertificateServiceTest" />
-      <option name="METHOD_NAME" value="read" />
+      <option name="PACKAGE_NAME" value="com.epam.esm.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.esm.controller.HomeControllerTest" />
+      <option name="METHOD_NAME" value="giftsByTag" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GiftCertificateServiceTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HomeControllerTest.tagsByGift" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gift" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.epam.esm.service.*" />
+          <option name="PATTERN" value="com.epam.esm.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.epam.esm.service" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.esm.service.GiftCertificateServiceTest" />
-      <option name="METHOD_NAME" value="update" />
+      <option name="PACKAGE_NAME" value="com.epam.esm.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.esm.controller.HomeControllerTest" />
+      <option name="METHOD_NAME" value="tagsByGift" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TagServiceTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestWithCoverage" type="JUnit" factoryName="JUnit">
       <module name="gift" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.epam.esm.service.*" />
+          <option name="PATTERN" value="com.epam.esm.config.*" />
           <option name="ENABLED" value="true" />
+          <option name="INCLUDE" value="false" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="com.epam.esm.ApplicationInitializer" />
+          <option name="ENABLED" value="true" />
+          <option name="INCLUDE" value="false" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.epam.esm.service" />
-      <option name="MAIN_CLASS_NAME" value="com.epam.esm.service.TagServiceTest" />
-      <option name="METHOD_NAME" value="create" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.epam.esm" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.TestWithCoverage" />
+      <item itemvalue="JUnit.HomeControllerTest.delete" />
+      <item itemvalue="JUnit.HomeControllerTest.allGifts" />
+      <item itemvalue="JUnit.HomeControllerTest.giftsByTag" />
+      <item itemvalue="JUnit.HomeControllerTest.tagsByGift" />
+      <item itemvalue="JUnit.HomeControllerTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TagServiceTest.create" />
-        <item itemvalue="JUnit.GiftCertificateServiceTest.addTagToGift" />
-        <item itemvalue="JUnit.GiftCertificateServiceTest.update" />
-        <item itemvalue="JUnit.GiftCertificateServiceTest.create" />
-        <item itemvalue="JUnit.GiftCertificateServiceTest.read" />
+        <item itemvalue="JUnit.HomeControllerTest" />
+        <item itemvalue="JUnit.HomeControllerTest.tagsByGift" />
+        <item itemvalue="JUnit.HomeControllerTest.giftsByTag" />
+        <item itemvalue="JUnit.HomeControllerTest.allGifts" />
+        <item itemvalue="JUnit.HomeControllerTest.delete" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +260,13 @@
       <workItem from="1628004522093" duration="768000" />
       <workItem from="1628086416899" duration="1013000" />
       <workItem from="1628254276040" duration="5358000" />
-      <workItem from="1628305681754" duration="35841000" />
+      <workItem from="1628305681754" duration="36980000" />
+      <workItem from="1628352885563" duration="1941000" />
+      <workItem from="1628396309635" duration="22677000" />
+      <workItem from="1628489439513" duration="18418000" />
+      <workItem from="1628511169310" duration="44000" />
+      <workItem from="1628514195535" duration="909000" />
+      <workItem from="1628575606181" duration="8541000" />
     </task>
     <servers />
   </component>
@@ -230,5 +284,17 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/gift$TestWithCoverage.ic" NAME="TestWithCoverage Coverage Results" MODIFIED="1628585401058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <EXCLUDED_FILTER>com.epam.esm.config.*</EXCLUDED_FILTER>
+      <EXCLUDED_FILTER>com.epam.esm.ApplicationInitializer</EXCLUDED_FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/gift$TagDAOTest_delete.ic" NAME="TagDAOTest.delete Coverage Results" MODIFIED="1628507996983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.epam.esm.dao.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/gift$TagServiceTest_findTagsByGift.ic" NAME="TagServiceTest.findTagsByGift Coverage Results" MODIFIED="1628354251219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.epam.esm.service.*</FILTER>
+    </SUITE>
   </component>
 </project>

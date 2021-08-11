@@ -13,6 +13,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 class TagDAOTest {
 
+    private Tag tag;
 
     private static JdbcConfig jdbcConfig = new JdbcConfig();
 
@@ -29,9 +30,25 @@ class TagDAOTest {
 
     @BeforeEach
     void createTag(){
-        Tag tag = new Tag();
-        tag.setName("Tag");
+        tag = new Tag(1,"Tag");
+
         tagDAO.create(tag);
+    }
+
+    @Test
+    void create(){
+        tagDAO.create(tag);
+        assertThat(tagDAO.findByName("Tag").getName()).isEqualTo("Tag");
+    }
+
+    @Test
+    void read(){
+        assertThat(tagDAO.read(1).getName()).isEqualTo("Tag");
+    }
+    @Test
+    void delete(){
+        tagDAO.create(new Tag(2,"newTag"));
+        assertThat(tagDAO.findByName("newTag").getName()).isEqualTo("newTag");
     }
 
     @Test

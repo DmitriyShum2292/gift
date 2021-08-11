@@ -1,5 +1,6 @@
 package com.epam.esm.dao;
 
+import com.epam.esm.entities.GiftCertificate;
 import com.epam.esm.entities.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
@@ -35,7 +36,8 @@ public class TagDAO implements CRUD<Tag> {
 
     @Override
     public Tag read(int id) {
-        return null;
+        return jdbcTemplate.query("SELECT * FROM tag WHERE id = ?",new Object[]{id},
+                new BeanPropertyRowMapper<>(Tag.class)).stream().findAny().orElse(null);
     }
 
     @Override
@@ -45,8 +47,7 @@ public class TagDAO implements CRUD<Tag> {
 
     @Override
     public void delete(int id) {
-
-    }
+        jdbcTemplate.update("DELETE FROM tag WHERE id = ?",id);    }
 
     public Tag findByName(String name){
         return jdbcTemplate.query("SELECT * FROM tag WHERE name = ?",new Object[]{name},
