@@ -1,5 +1,6 @@
 com/epam/esm/service/GiftCertificateServiceTest.class
 config/InitDB.class
+com/epam/esm/controller/HomeControllerTest.class
 config/JdbcConfig.class
 com/epam/esm/dao/TagDAOTest.class
 com/epam/esm/service/TagServiceTest.class

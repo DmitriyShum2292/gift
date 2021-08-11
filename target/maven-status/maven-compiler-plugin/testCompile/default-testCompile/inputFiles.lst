@@ -3,4 +3,5 @@
 /home/dmitriy/IdeaProjects/gift/src/test/java/config/InitDB.java
 /home/dmitriy/IdeaProjects/gift/src/test/java/com/epam/esm/service/GiftCertificateServiceTest.java
 /home/dmitriy/IdeaProjects/gift/src/test/java/config/JdbcConfig.java
+/home/dmitriy/IdeaProjects/gift/src/test/java/com/epam/esm/controller/HomeControllerTest.java
 /home/dmitriy/IdeaProjects/gift/src/test/java/com/epam/esm/dao/GiftCertificateDAOTest.java

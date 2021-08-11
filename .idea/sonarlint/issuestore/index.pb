@@ -1,8 +1,6 @@
 
 \
 ,src/main/java/com/epam/esm/entities/Tag.java,1/c/1cf8325e0a811ad878d3ef2ccc152fcf8124aaaf
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 a
 1src/main/java/com/epam/esm/config/JdbcConfig.java,9/d/9db23f35a9ecfcf71456ea07eac45a90e8520de4
 `

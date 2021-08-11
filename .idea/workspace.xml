@@ -5,30 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eff8c752-bea5-42b7-a018-3c1e69d1fc70" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43822d12-cd39-42b0-8e84-44cbd9b4663a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43822d12-cd39-42b0-8e84-44cbd9b4663a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/1/21728756bd9493cc6bfe09a71340b2f8b0aa88c5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/esm/ApplicationInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/esm/ApplicationInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/esm/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/esm/config/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/esm/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/esm/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/esm/dao/TagDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/esm/dao/TagDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/esm/service/GiftCertificateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/esm/service/GiftCertificateService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/esm/service/TagService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/esm/service/TagService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/esm/dao/GiftCertificateDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/esm/dao/GiftCertificateDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/esm/dao/TagDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/esm/dao/TagDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/esm/service/GiftCertificateServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/esm/service/GiftCertificateServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/epam/esm/service/TagServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/esm/service/TagServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/config/JdbcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/JdbcConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/ApplicationInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/esm/ApplicationInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/config/ApplicationConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/esm/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/config/JdbcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/esm/config/JdbcConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/dao/CRUD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/esm/dao/CRUD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/dao/GiftCertificateDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/esm/dao/GiftCertificateDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/dao/TagDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/esm/dao/TagDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/entities/GiftCertificate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/esm/entities/GiftCertificate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/entities/GiftTag.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/esm/entities/GiftTag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/entities/Tag.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/esm/entities/Tag.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/service/GiftCertificateService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/esm/service/GiftCertificateService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2021-08-07T18-41-06_228-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.epam.esm.dao.GiftCertificateDAOTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.epam.esm.dao.GiftCertificateDAOTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.epam.esm.dao.TagDAOTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.epam.esm.dao.TagDAOTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.epam.esm.service.GiftCertificateServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.epam.esm.service.GiftCertificateServiceTest.xml" afterDir="false" />
@@ -41,6 +32,8 @@
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/epam/esm/dao/TagDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/epam/esm/dao/TagDAOTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/epam/esm/service/GiftCertificateServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/epam/esm/service/GiftCertificateServiceTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/epam/esm/service/TagServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/epam/esm/service/TagServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/config/InitDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/config/InitDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/config/JdbcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/config/JdbcConfig.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,6 +260,7 @@
       <workItem from="1628511169310" duration="44000" />
       <workItem from="1628514195535" duration="909000" />
       <workItem from="1628575606181" duration="8541000" />
+      <workItem from="1628664520685" duration="738000" />
     </task>
     <servers />
   </component>
