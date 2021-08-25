@@ -1,6 +1,0 @@
-com/epam/esm/service/GiftCertificateServiceTest.class
-com/epam/esm/dao/TagDAOImplTest.class
-config/InitDB.class
-config/JdbcConfig.class
-com/epam/esm/service/TagServiceTest.class
-com/epam/esm/dao/GiftCertificateDAOImplTest.class
