@@ -5,27 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eff8c752-bea5-42b7-a018-3c1e69d1fc70" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/471b378af9f233a0ef6d641621891b5209c10fa2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/esm/controller/GiftCertificateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/esm/controller/GiftCertificateController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/esm/controller/TagController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/esm/controller/TagController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/controller/GiftCertificateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/esm/controller/GiftCertificateController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/epam/esm/controller/TagController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/epam/esm/controller/TagController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/classes/com/epam/esm/controller/GiftCertificateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/classes/com/epam/esm/controller/GiftCertificateController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/classes/com/epam/esm/controller/TagController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gift-1.0-SNAPSHOT/WEB-INF/classes/com/epam/esm/controller/TagController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.epam.esm.dao.GiftCertificateDAOImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.epam.esm.dao.GiftCertificateDAOImplTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.epam.esm.dao.TagDAOImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.epam.esm.dao.TagDAOImplTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.epam.esm.service.GiftCertificateServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.epam.esm.service.GiftCertificateServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.epam.esm.service.TagServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.epam.esm.service.TagServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.epam.esm.dao.GiftCertificateDAOImplTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.epam.esm.dao.GiftCertificateDAOImplTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.epam.esm.dao.TagDAOImplTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.epam.esm.dao.TagDAOImplTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.epam.esm.service.GiftCertificateServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.epam.esm.service.GiftCertificateServiceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.epam.esm.service.TagServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.epam.esm.service.TagServiceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2021-08-25" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,7 +240,7 @@
       <workItem from="1629631982595" duration="2784000" />
       <workItem from="1629697230413" duration="5148000" />
       <workItem from="1629776596062" duration="21131000" />
-      <workItem from="1629862418166" duration="3454000" />
+      <workItem from="1629862418166" duration="4261000" />
     </task>
     <servers />
   </component>

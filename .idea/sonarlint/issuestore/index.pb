@@ -39,8 +39,6 @@ m
 =src/main/java/com/epam/esm/exception/BadRequestException.java,8/e/8e84b586dc3308438b9568665907767796e7b1f4
 f
 6src/main/java/com/epam/esm/dto/ResponseSuccessDTO.java,4/5/45e4b3233a02e33bcea32d033c6231e58f0afaaf
-n
->src/main/java/com/epam/esm/service/GiftCertificateService.java,3/2/32ac562018e6030e3d9e8525dda136be68f160e0
 b
 2src/main/java/com/epam/esm/service/TagService.java,4/6/468f321eb98e0f6fb888f2bcfbd83e782803138e
 m

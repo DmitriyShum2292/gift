@@ -13,6 +13,11 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Map;
+/**
+ * Rest controller for GiftCertificate
+ * @author dmitriy
+ * @version 1.0
+ */
 
 @RestController
 @RequestMapping("/certificate")
