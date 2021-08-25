@@ -20,6 +20,7 @@ public class GiftCertificateController {
 
     private final GiftCertificateService giftCertificateService;
     private final TagService tagService;
+    private final int noId = 1000;
 
     @Autowired
     public GiftCertificateController(GiftCertificateService giftCertificateService,TagService tagService) {
@@ -31,7 +32,7 @@ public class GiftCertificateController {
     public ResponseEntity<?> create (@RequestBody GiftCertificate certificate){
         if(giftCertificateService.findByName(certificate.getName())!=null) {
             throw new BadRequestException("Certificate with name: "+certificate.getName()+" exists!",
-                    0);
+                    noId);
         }
         giftCertificateService.create(certificate);
         ResponseSuccessDTO successDTO = new ResponseSuccessDTO("Created",HttpStatus.CREATED);
@@ -72,7 +73,7 @@ public class GiftCertificateController {
     public ResponseEntity<?> allGifts(){
         List<GiftCertificate> allGifts = giftCertificateService.allGifts();
         if (allGifts.isEmpty()){
-            throw new NotFoundException("No certificate found");
+            throw new NotFoundException("No certificate found",noId);
         }
         return new ResponseEntity<>(allGifts,HttpStatus.OK);
     }
@@ -90,7 +91,7 @@ public class GiftCertificateController {
     public ResponseEntity<?> giftsWithTags(){
         List<GiftCertificate> certificates = giftCertificateService.getCertificatesWithTags();
         if (certificates.isEmpty()){
-            throw new NotFoundException("No certificate found");
+            throw new NotFoundException("No certificate found",noId);
         }
         return new ResponseEntity<>(certificates,HttpStatus.OK);
     }
@@ -99,7 +100,7 @@ public class GiftCertificateController {
     public ResponseEntity<?> findGiftsByTagNameSorted(@RequestParam String name){
         List<GiftCertificate> certificates = giftCertificateService.certificateByTagNameSorted(name);
         if (certificates.isEmpty()){
-            throw new NotFoundException("No certificate found");
+            throw new NotFoundException("No certificate found",noId);
         }
         return new ResponseEntity<>(certificates,HttpStatus.OK);
     }

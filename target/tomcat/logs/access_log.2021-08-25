@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [25/Aug/2021:09:31:48 +0500] "GET /gift/certificate/27 HTTP/1.1" 200 542 http-bio-8080-exec-2 1525
+0:0:0:0:0:0:0:1 - - [25/Aug/2021:09:31:53 +0500] "POST /gift/certificate HTTP/1.1" 400 114 http-bio-8080-exec-3 259

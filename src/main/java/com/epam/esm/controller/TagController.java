@@ -32,7 +32,7 @@ public class TagController {
     public ResponseEntity<List<Tag>> alltags(){
         List<Tag> allTags = tagService.allTags();
         if (allTags.isEmpty()){
-            throw new NotFoundException("No tag found");
+            throw new NotFoundException("No tag found",1000);
         }
         return new ResponseEntity<>(allTags, HttpStatus.OK);
     }
