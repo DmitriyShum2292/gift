@@ -1,2 +1,0 @@
-0:0:0:0:0:0:0:1 - - [11/Aug/2021:12:01:59 +0500] "GET /gift/allgifts HTTP/1.1" 200 2244 http-bio-8080-exec-2 1773
-0:0:0:0:0:0:0:1 - - [11/Aug/2021:12:02:05 +0500] "GET /gift/alltags HTTP/1.1" 200 334 http-bio-8080-exec-3 111

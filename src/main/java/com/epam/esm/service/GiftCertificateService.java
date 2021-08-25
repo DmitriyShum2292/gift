@@ -5,9 +5,15 @@ import com.epam.esm.entities.GiftCertificate;
 import com.epam.esm.entities.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Isolation;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
+
+import java.sql.SQLException;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 /**
  * Sevice layer for GiftCertificate between Controller and GiftCertificateDAO
@@ -28,10 +34,12 @@ public class GiftCertificateService {
     }
 
     public GiftCertificateService(GiftCertificateDAO giftCertificateDAO, TagService tagService){
-        this.giftCertificateDAO=giftCertificateDAO;
+        this.giftCertificateDAO = giftCertificateDAO;
         this.tagService = tagService;
     }
 
+    @Transactional(rollbackFor = SQLException.class,propagation = Propagation.REQUIRES_NEW,
+            isolation = Isolation.READ_COMMITTED)
     public boolean create (GiftCertificate certificate){
         LocalDateTime date = LocalDateTime.now();
         List<Tag> tags = certificate.getTags();
@@ -51,6 +59,8 @@ public class GiftCertificateService {
         return giftCertificateDAO.read(id);
     }
 
+    @Transactional(rollbackFor = SQLException.class,propagation = Propagation.REQUIRES_NEW,
+            isolation = Isolation.READ_COMMITTED)
     public boolean update(Map<Object,Object> fields, int id){
         LocalDateTime date = LocalDateTime.now();
         if(giftCertificateDAO.read(id)!=null){
@@ -61,6 +71,25 @@ public class GiftCertificateService {
     }
     public void delete(int id){
         giftCertificateDAO.delete(id);
+    }
+
+    public List<GiftCertificate> getCertificatesWithTags(){
+        List<GiftCertificate> allGifts = allGifts();
+
+        allGifts = allGifts.stream().map(s->{s.setTags(tagService.findTagsByGift(s.getId()));
+                                            return s;}).collect(Collectors.toList());
+        return allGifts;
+    }
+
+    public List<GiftCertificate> certificateByTagNameSorted(String name){
+        Tag tag = tagService.findByNameLike(name);
+        List<GiftCertificate> certificates;
+
+        certificates = findGiftsByTag(tag.getId());
+
+        certificates = certificates.stream().map(s->{s.setTags(tagService.findTagsByGift(s.getId()));
+            return s;}).collect(Collectors.toList());
+        return certificates;
     }
 
     public List<GiftCertificate> allGifts(){
@@ -78,5 +107,8 @@ public class GiftCertificateService {
 
     public List<GiftCertificate> findGiftsByTag(int id){
         return giftCertificateDAO.findGiftsByTag(id);
+    }
+    public List<GiftCertificate> findGiftsByTagSortedByDateDESC(int id){
+        return giftCertificateDAO.findGiftsByTagSortedByDateDESC(id);
     }
 }

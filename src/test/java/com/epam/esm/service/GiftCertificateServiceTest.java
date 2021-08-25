@@ -1,6 +1,7 @@
 package com.epam.esm.service;
 
 import com.epam.esm.dao.GiftCertificateDAO;
+import com.epam.esm.dao.impl.GiftCertificateDAOImpl;
 import com.epam.esm.entities.GiftCertificate;
 import com.epam.esm.entities.Tag;
 import org.junit.jupiter.api.BeforeEach;
@@ -18,7 +19,7 @@ import static org.mockito.BDDMockito.given;
 class GiftCertificateServiceTest {
 
     @Mock
-    private GiftCertificateDAO giftCertificateDAO;
+    private GiftCertificateDAOImpl giftCertificateDAOImpl;
     @Mock
     private TagService tagService;
     private GiftCertificateService giftCertificateService;
@@ -26,7 +27,7 @@ class GiftCertificateServiceTest {
     @BeforeEach
     public void before(){
         MockitoAnnotations.openMocks(this);
-        this.giftCertificateService = new GiftCertificateService(giftCertificateDAO,tagService);
+        this.giftCertificateService = new GiftCertificateService(giftCertificateDAOImpl,tagService);
     }
     @Test
     void create() {
@@ -36,11 +37,11 @@ class GiftCertificateServiceTest {
         List<Tag> tags = new ArrayList<>();
         tags.add(tag);
         certificate.setTags(tags);
-        given(giftCertificateDAO.create(certificate)).willReturn(certificate);
+        given(giftCertificateDAOImpl.create(certificate)).willReturn(certificate);
         given(tagService.findByName("Tag")).willReturn(tag);
         given(tagService.create(tag)).willReturn(true);
-        given(giftCertificateDAO.findByName("Certificate")).willReturn(certificate);
-        given(giftCertificateDAO.addTagToGift(1,1)).willReturn(true);
+        given(giftCertificateDAOImpl.findByName("Certificate")).willReturn(certificate);
+        given(giftCertificateDAOImpl.addTagToGift(1,1)).willReturn(true);
 
         boolean result = giftCertificateService.create(certificate);
         assertThat(result).isTrue();
@@ -49,7 +50,7 @@ class GiftCertificateServiceTest {
     void read() {
         GiftCertificate certificate = new GiftCertificate();
         certificate.setName("Certificate");
-        given(giftCertificateDAO.read(1)).willReturn(certificate);
+        given(giftCertificateDAOImpl.read(1)).willReturn(certificate);
 
         GiftCertificate exists = giftCertificateService.read(1);
         assertThat(exists!=null);
@@ -62,8 +63,8 @@ class GiftCertificateServiceTest {
         fields.put("name","Certificate");
         LocalDateTime dateTime = LocalDateTime.now();
 
-        given(giftCertificateDAO.update(fields,1,dateTime)).willReturn(true);
-        given(giftCertificateDAO.read(1)).willReturn(certificate);
+        given(giftCertificateDAOImpl.update(fields,1,dateTime)).willReturn(true);
+        given(giftCertificateDAOImpl.read(1)).willReturn(certificate);
 
         boolean result = giftCertificateService.update(fields,1);
         assertThat(result).isTrue();
@@ -74,7 +75,7 @@ class GiftCertificateServiceTest {
         GiftCertificate giftCertificate = new GiftCertificate();
         giftCertificate.setName("Certificate");
         certificates.add(giftCertificate);
-        given(giftCertificateDAO.findGiftsByTag(1)).willReturn(certificates);
+        given(giftCertificateDAOImpl.findGiftsByTag(1)).willReturn(certificates);
 
         assertThat(giftCertificateService.findGiftsByTag(1).size()).isEqualTo(1);
     }
@@ -82,13 +83,13 @@ class GiftCertificateServiceTest {
     void allGifts() {
         List<GiftCertificate> certificates = new ArrayList<>();
         certificates.add(new GiftCertificate());
-        given(giftCertificateDAO.allGifts()).willReturn(certificates);
+        given(giftCertificateDAOImpl.allGifts()).willReturn(certificates);
 
         assertThat(giftCertificateService.allGifts().size()).isEqualTo(1);
     }
     @Test
     void addTagToGift(){
-        given(giftCertificateDAO.addTagToGift(1,1)).willReturn(true);
+        given(giftCertificateDAOImpl.addTagToGift(1,1)).willReturn(true);
         boolean result = giftCertificateService.addTagToGift(1,1);
 
         assertThat(result).isTrue();
